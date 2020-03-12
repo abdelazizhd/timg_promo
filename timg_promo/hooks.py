@@ -2,10 +2,10 @@
 from __future__ import unicode_literals
 from . import __version__ as app_version
 
-app_name = "timg_importer"
-app_title = "Timg Importer"
+app_name = "timg_promo"
+app_title = "Timg Promo"
 app_publisher = "Abdelaziz de la Horra Diaz"
-app_description = "Import data from CSV file"
+app_description = "ERPNext Promo Extension"
 app_icon = "octicon octicon-cloud-upload"
 app_color = "grey"
 app_email = "abdelazizhd@gmail.com"
@@ -15,12 +15,12 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/timg_importer/css/timg_importer.css"
-# app_include_js = "/assets/timg_importer/js/timg_importer.js"
+# app_include_css = "/assets/timg_promo/css/timg_promo.css"
+# app_include_js = "/assets/timg_promo/js/timg_promo.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/timg_importer/css/timg_importer.css"
-# web_include_js = "/assets/timg_importer/js/timg_importer.js"
+# web_include_css = "/assets/timg_promo/css/timg_promo.css"
+# web_include_js = "/assets/timg_promo/js/timg_promo.js"
 
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
@@ -43,7 +43,7 @@ app_license = "MIT"
 # }
 
 # Website user home page (by function)
-# get_website_user_home_page = "timg_importer.utils.get_home_page"
+# get_website_user_home_page = "timg_promo.utils.get_home_page"
 
 # Generators
 # ----------
@@ -54,14 +54,14 @@ app_license = "MIT"
 # Installation
 # ------------
 
-# before_install = "timg_importer.install.before_install"
-# after_install = "timg_importer.install.after_install"
+# before_install = "timg_promo.install.before_install"
+# after_install = "timg_promo.install.after_install"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "timg_importer.notifications.get_notification_config"
+# notification_config = "timg_promo.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -80,9 +80,9 @@ app_license = "MIT"
 # Hook on document methods and events
 
 doc_events = {
-    "Importer Settings": {
-        "on_update": "timg_importer.observer.doctype.importer_settings.importer_settings.process"
-    }
+    # "Importer Settings": {
+    #     "on_update": "timg_promo.observer.doctype.importer_settings.importer_settings.process"
+    # }
 # 	"*": {
 # 		"on_update": "method",
 # 		"on_cancel": "method",
@@ -94,37 +94,37 @@ doc_events = {
 # ---------------
 
 scheduler_events = {
-    "cron": {
-        "*/15 * * * *": [
-            "timg_importer.observer.doctype.importer_settings.importer_settings.check"
-        ]
-    }
+    # "cron": {
+    #     "*/15 * * * *": [
+    #         "timg_promo.observer.doctype.importer_settings.importer_settings.check"
+    #     ]
+    # }
 # 	"all": [
-# 		"timg_importer.tasks.all"
+# 		"timg_promo.tasks.all"
 # 	],
 # 	"daily": [
-# 		"timg_importer.tasks.daily"
+# 		"timg_promo.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"timg_importer.tasks.hourly"
+# 		"timg_promo.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"timg_importer.tasks.weekly"
+# 		"timg_promo.tasks.weekly"
 # 	]
 # 	"monthly": [
-# 		"timg_importer.tasks.monthly"
+# 		"timg_promo.tasks.monthly"
 # 	]
 }
 
 # Testing
 # -------
 
-# before_tests = "timg_importer.install.before_tests"
+# before_tests = "timg_promo.install.before_tests"
 
 # Overriding Whitelisted Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "timg_importer.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "timg_promo.event.get_events"
 # }
 

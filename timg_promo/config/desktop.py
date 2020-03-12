@@ -6,9 +6,9 @@ def get_data():
 	return {
 		"Timg Importer": {
 			"color": "#414141",
-			"icon": "octicon octicon-cloud-upload",
+			"icon": "octicon octicon-megaphone",
 			"type": "module",
-			"label": _("Timg Importer")
+			"label": _("Timg Promo")
 		}
 	}
 

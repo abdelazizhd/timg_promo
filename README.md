@@ -1,6 +1,6 @@
-## Timg Importer
+## Timg Promo
 
-Import data from CSV file
+ERPNext Promo Extension
 
 #### License
 

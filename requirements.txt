@@ -2,4 +2,3 @@ frappe
 unidecode
 pygithub
 erpnext
-xlrd

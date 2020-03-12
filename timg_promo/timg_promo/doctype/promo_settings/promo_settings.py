@@ -3,7 +3,7 @@ import frappe
 from frappe import _
 from frappe.model.document import Document
 
-class ImporterSettings(Document):
+class PromoSettings(Document):
     def validate(self):
         self.validate_credentials()
 

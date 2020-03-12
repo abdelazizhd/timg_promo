@@ -4,15 +4,15 @@ include *.json
 include *.md
 include *.py
 include *.txt
-recursive-include timg_importer *.css
-recursive-include timg_importer *.csv
-recursive-include timg_importer *.html
-recursive-include timg_importer *.ico
-recursive-include timg_importer *.js
-recursive-include timg_importer *.json
-recursive-include timg_importer *.md
-recursive-include timg_importer *.png
-recursive-include timg_importer *.py
-recursive-include timg_importer *.svg
-recursive-include timg_importer *.txt
-recursive-exclude timg_importer *.pyc
+recursive-include timg_promo *.css
+recursive-include timg_promo *.csv
+recursive-include timg_promo *.html
+recursive-include timg_promo *.ico
+recursive-include timg_promo *.js
+recursive-include timg_promo *.json
+recursive-include timg_promo *.md
+recursive-include timg_promo *.png
+recursive-include timg_promo *.py
+recursive-include timg_promo *.svg
+recursive-include timg_promo *.txt
+recursive-exclude timg_promo *.pyc

@@ -8,14 +8,14 @@ with open('requirements.txt') as f:
 # get version from __version__ variable in timg_importer/__init__.py
 _version_re = re.compile(r'__version__\s+=\s+(.*)')
 
-with open('timg_importer/__init__.py', 'rb') as f:
+with open('timg_promo/__init__.py', 'rb') as f:
 	version = str(ast.literal_eval(_version_re.search(
 		f.read().decode('utf-8')).group(1)))
 
 setup(
-	name='timg_importer',
+	name='timg_promo',
 	version=version,
-	description='Import data from CSV file',
+	description='ERPNext Promo Extension',
 	author='Abdelaziz de la Horra Diaz',
 	author_email='abdelazizhd@gmail.com',
 	packages=find_packages(),
