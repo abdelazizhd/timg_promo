@@ -1,0 +1,9 @@
+.DS_Store
+*.pyc
+*.egg-info
+*.swp
+tags
+timg_importer/docs/current
+.vscode
+.idea
+venv

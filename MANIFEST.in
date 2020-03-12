@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include timg_importer *.css
+recursive-include timg_importer *.csv
+recursive-include timg_importer *.html
+recursive-include timg_importer *.ico
+recursive-include timg_importer *.js
+recursive-include timg_importer *.json
+recursive-include timg_importer *.md
+recursive-include timg_importer *.png
+recursive-include timg_importer *.py
+recursive-include timg_importer *.svg
+recursive-include timg_importer *.txt
+recursive-exclude timg_importer *.pyc
