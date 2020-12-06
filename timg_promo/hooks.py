@@ -128,3 +128,4 @@ scheduler_events = {
 # 	"frappe.desk.doctype.event.event.get_events": "timg_promo.event.get_events"
 # }
 
+
